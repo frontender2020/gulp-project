@@ -2,5 +2,13 @@
  * Все паршалы импортировать в этот файл
  */
 
+ // Utils
+@import './variables.scss';
+@import './mixins.scss';
 @import 'normalize.scss';
 @import 'base.scss';
+
+// Main page layout
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';

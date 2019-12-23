@@ -1,0 +1,56 @@
+.footer {
+  &__inner {
+    @include flex (flex, space-between);
+    align-items: center;
+    min-height: 60px;
+    border-top: 1px solid $color-lightgrey;
+  }
+  &__copyright {
+    color: $color-darkgrey;
+    font-family: $montserrat-font;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__link {
+    color: $color-after;
+    display: inline-block;
+  }
+  &__form {
+    display: flex;
+    &-btn {
+      border: none;
+      width: 150px;
+      height: 40px;
+      font-family: $montserrat-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background-color: $color-fill;
+      color: $color-white;
+      cursor: pointer;
+      transition: all 0.2s linear;
+      &:hover {
+        background-color: $color-aqua;
+        transition: all 0.2s linear;
+      }
+    }
+  }
+}
+
+.footer__form input {
+  width: 230px;
+  height: auto;
+  border: 1px solid $color-grey;
+  padding-left: 13px;
+  font-family: $roboto-font;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  &::placeholder {
+    color: $color-form-input;
+  }
+  &:focus {
+    outline: none;
+  }
+}
