@@ -2,7 +2,7 @@
  * Все паршалы импортировать в этот файл
  */
 
- // Utils
+// Utils
 @import './variables.scss';
 @import './mixins.scss';
 @import 'normalize.scss';
@@ -10,5 +10,7 @@
 
 // Main page layout
 @import 'layout/header';
-@import 'layout/main';
+@import 'layout/offer';
+@import 'layout/features';
+@import 'layout/team';
 @import 'layout/footer';

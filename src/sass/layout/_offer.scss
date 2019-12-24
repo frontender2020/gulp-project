@@ -1,0 +1,41 @@
+.offer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  margin-top: 229px;
+  color: $color-white;
+  text-align: center;
+
+  &__subtitle {
+    font-family: $kaushan-font;
+    font-size: 72px;
+    font-weight: 400;
+  }
+
+  &__title {
+    font-family: $montserrat-font;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 140px;
+  }
+
+  &__link {
+    width: 170px;
+    border: 3px solid $color-white;
+    margin: auto;
+    padding: 10px 32px;
+    font-family: $montserrat-font;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+
+    &:hover {
+      color: $color-after;
+      border-color: $color-after;
+      transition: all 0.2s linear;
+    }
+  }
+}
